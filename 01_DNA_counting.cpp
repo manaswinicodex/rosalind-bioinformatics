@@ -6,7 +6,7 @@ int main () {
     string sequence;
 
     cout << "Enter sequence: ";
-    cin >> sequence; // Fixed: changed << to >>
+    cin >> sequence; 
 
     int a_count = 0, c_count = 0, g_count = 0, t_count = 0;
 
@@ -22,10 +22,10 @@ int main () {
         } else if (nucleotide == 'T') {
             t_count++;
         }
-    } // Fixed: Closed the for-loop here
+    } 
 
-    // Fixed: Placed the print statement outside the loop so it only prints the final result
+
     cout << a_count << " " << c_count << " " << g_count << " " << t_count << endl;
 
     return 0;
-} // Fixed: Closed the main function here
+} 
