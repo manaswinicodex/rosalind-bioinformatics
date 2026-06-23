@@ -24,7 +24,6 @@ int main () {
         }
     } 
 
-
     cout << a_count << " " << c_count << " " << g_count << " " << t_count << endl;
 
     return 0;
